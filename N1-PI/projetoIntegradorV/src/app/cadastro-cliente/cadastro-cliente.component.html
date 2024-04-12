@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro de Cliente</title>
+</head>
+<body>
+
+<div class="formularioCliente">
+<h1>CADASTRO DE CLIENTE</h1>
+<form>
+    <input [(ngModel)]="cliente.nome" name="nome" id="nome" placeholder="Nome" type="text" required>
+    <input [(ngModel)]="cliente.endereco" name="endereco" id="endereco" placeholder="Endereço" type="text">
+    <input [(ngModel)]="cliente.telefone" name="telefone" id="telefone" placeholder="Telefone" type="tel" required>
+    <input [(ngModel)]="cliente.cpf" name="cpf" id="cpf" placeholder="CPF" type="text" required>
+    <input [(ngModel)]="cliente.email" name="email" id="email" placeholder="Email" type="email">
+    <button type="submit" (click)="CadastrarCliente()">Cadastrar</button>
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+h1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    margin-left: 40px;
+    font-size: 55px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 254, 254);
+}
+
+form{
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    height: 50px;
+    border-color: black;
+    margin: 15px;
+    border-radius: 7px;
+    font-size: 30px;
+
+}
+
+::placeholder{
+    color: #000;
+}
+
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(5, 3, 3);
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease; /* Adicionando efeito de transição */
+}
+
+button:hover {
+    background-color: rgb(155, 32, 32); /* Alterando a cor de fundo quando o mouse está sobre o botão */
+}
+
+
+
+.formularioUsuario {
+    
+    
+    background-color: rgb(255, 255, 255);
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 800px; /* Define a altura da tela */
+    width: 1000px; /* Define a largura da tela */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-radius: 10px;
+    margin-top: 30px;
+}

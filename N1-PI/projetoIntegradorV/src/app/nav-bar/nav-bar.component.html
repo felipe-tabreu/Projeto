@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    
+</head>
+<body>
+    <div>
+        <nav class="logo">
+            <ul class="NavList">
+                <li class="dropdown">
+                    <a href="">Revisão</a>
+                    <div class="dropdown-content">
+                        <a (click)="entrarCadRevisao()">Nova Revisão</a>
+                        <a href="#">Consultar Revisão</a>
+                    </div>
+                </li>
+                <li class="dropdown2">
+                    <a href="">Cliente</a>
+                    <div class="dropdown-content">
+                        <a (click)="entrarCadCliente()">Novo Cliente</a>
+                        <a href="#">Editar Cliente</a>
+                    </div>
+                </li>
+                <li class="dropdown3">
+                    <a href="">Veiculo</a>
+                    <div class="dropdown-content"> 
+                        <a (click)="entrarCadVeiculo()">Novo Veiculo</a>
+                        <a href="#">Editar Veiculo</a>
+                    </div>
+                </li>
+                <li class="dropdown4">
+                    <a href="">Usuario</a>
+                    <div class="dropdown-content">
+                        <a  (click)="entrarCadUsuario()">Novo Usuario</a>
+                        <a href="#">Editar Usuario</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>

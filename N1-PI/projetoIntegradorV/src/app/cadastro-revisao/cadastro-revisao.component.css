@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.formularioNovaRevisao {
+    width: 60%;
+    height: 900px;
+    display: flex;
+    align-items: center; /* Adicionado para centralizar verticalmente */
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    width: 400px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+    width: 80%;
+    height: 40px;
+}
+
+input{
+    width: 80%;
+    height: 40px; 
+    margin: 10px;
+}
+
+textarea{
+    width: 80%;
+    height: 200px; 
+}
+
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(5, 3, 3);
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease; /* Adicionando efeito de transição */
+}
+
+button:hover {
+    background-color: rgb(155, 32, 32); /* Alterando a cor de fundo quando o mouse está sobre o botão */
+}
+
+.botao {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo do botão quando hover */
+.botao:hover {
+    background-color: rgb(12, 49, 216); /* Alterando a cor de fundo quando o mouse está sobre o botão */
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro de Usuario</title>
+</head>
+<body>
+
+
+<div class="formularioUsuario">
+    <br>
+    <h1>CADASTRO DE USUARIO</h1>
+    <form>
+
+        <input [(ngModel)]="usuario.nome" name="nome" placeholder="Nome" type="text">
+
+        <input [(ngModel)]="usuario.senha" name="senha" placeholder="Senha" type="password">
+
+        <input [(ngModel)]="usuario.endereco" name="endereco" placeholder="Endereço" type="text">
+
+        <input [(ngModel)]="usuario.telefone" name="telefone" placeholder="Telefone" type="tel">
+
+        <input [(ngModel)]="usuario.cpf" name="cpf" placeholder="CPF" type="text">
+
+        <input [(ngModel)]="usuario.email" name="email" placeholder="Email" type="email">
+
+<br>
+
+        <button (click)="cadastrar()">Cadastrar</button>
+    </form>
+    <br>
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+

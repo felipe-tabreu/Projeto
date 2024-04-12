@@ -1,0 +1,49 @@
+
+
+
+h1{
+
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+
+
+.frase{
+
+width: 85%;
+background-color: rgb(0, 0, 0);
+text-align: center;
+
+}
+
+
+
+button:hover {
+    background-color: rgb(71, 1, 1); /* Alterando a cor de fundo quando o mouse está sobre o botão */
+}
+
+
+
+
+
+      
+      
+  
+  
+    
+  
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="formularioVeiculo">
+
+
+<h1>CADASTRO DE VEICULOS</h1> 
+
+
+
+<form action="">
+
+<input type="text"  placeholder="CPF">
+
+
+<input type="text" placeholder="PLACA" maxlength="7"> <br>
+
+
+<div class="selecs">
+
+    <!-- Campo de seleção para a marca do veículo -->
+
+    <select id="marca" name="marca" [(ngModel)]="selectedMarca" (change)="atualizarModelos()">
+        <option value="" selected disabled>Selecione a marca</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Chevrolet">Chevrolet</option>
+    </select>
+
+    <!-- Campo de seleção para o modelo do veículo -->
+
+    <select id="modelo" name="modelo" [(ngModel)]="selectedModelo">
+        <option value="" selected disabled>Selecione o modelo</option>
+        <option *ngFor="let modelo of modelos" [value]="modelo">{{ modelo }}</option>
+    </select>
+
+
+
+    <select id="ano" name="ano">
+        <option value="" selected disabled>Selecione o ano</option>
+        <option *ngFor="let year of anos" [value]="year">{{ year }}</option>
+    </select>
+    
+
+    <select id="cor" name="cor" >
+        <option value=" "selected disabled>Selecione a cor</option>
+        <option  value="Preto" style="background-color: black; color: white;">preto</option>
+        <option value="Branco" style="background-color: white; color: black;">branco</option>
+        <option value="Prata" style="background-color: rgb(182, 182, 182); color: black;">prata</option>
+        <option value="Prata" style="background-color: red; color: white;">vermelho</option>
+    </select>
+
+</div>
+
+
+    <button><b>Cadastrar</b></button>
+
+</form>
+
+
+</div>
+
+
+
+
+</body>
+</html>
